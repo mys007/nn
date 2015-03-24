@@ -18,6 +18,7 @@ include('Select.lua')
 include('Narrow.lua')
 include('Replicate.lua')
 include('Transpose.lua')
+include('BatchNormalization.lua')
 
 include('Copy.lua')
 include('Min.lua')
@@ -86,6 +87,7 @@ include('SpatialDivisiveNormalization.lua')
 include('SpatialContrastiveNormalization.lua')
 include('SpatialZeroPadding.lua')
 include('SpatialUpSamplingNearest.lua')
+include('SpatialBatchNormalization.lua')
 
 include('VolumetricConvolution.lua')
 include('VolumetricMaxPooling.lua')
@@ -117,6 +119,7 @@ include('L1Cost.lua')
 include('L1Penalty.lua')
 include('WeightedMSECriterion.lua')
 include('BCECriterion.lua')
+include('CrossEntropyCriterion.lua')
 
 include('StochasticGradient.lua')
 
